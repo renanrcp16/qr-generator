@@ -143,8 +143,8 @@ export default function Page() {
   }
 
   return (
-    <div className="dark min-h-screen bg-zinc-950 text-zinc-100">
-      <div className="mx-auto max-w-3xl px-4 py-10">
+    <div className="dark min-h-screen bg-zinc-950 text-zinc-100 p-3">
+      <div className="mx-auto max-w-3xl px-4 py-5">
         {/* Page header */}
         <header className="mb-8">
           <h1 className="text-3xl font-semibold tracking-tight">
@@ -263,6 +263,28 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <footer className="text-center text-sm text-zinc-500">
+        <p>
+          Built by{" "}
+          <a
+            href="https://renan-rcp.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-zinc-300 underline hover:text-white"
+          >
+            Renan Corrêa Pedroso
+          </a>
+          {" • "}
+          <a
+            href="https://github.com/renanrcp16"
+            target="_blank"
+            rel="noreferrer"
+            className="text-zinc-300 underline hover:text-white"
+          >
+            GitHub
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
