@@ -2,8 +2,14 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-A simple and fast **QR Code Generator** built with **Next.js (App Router)**.  
+A fast **QR Code Generator** built with **Next.js (App Router)**.  
 Paste a URL, choose a size, generate a QR code preview, and download it as a PNG.
+
+## 🚀 Live App
+
+You can use the app here:
+
+👉 **https://rcp16-qr-generator.vercel.app**
 
 ## ✨ Features
 
@@ -14,8 +20,6 @@ Paste a URL, choose a size, generate a QR code preview, and download it as a PNG
 - Input validation with **Zod**
 - API route built into Next.js (`/api/qrcode`)
 - Clean dark UI (TailwindCSS)
-
----
 
 ## 🧱 Tech Stack
 
