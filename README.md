@@ -1,5 +1,7 @@
 # QR Code Generator
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 A simple and fast **QR Code Generator** built with **Next.js (App Router)**.  
 Paste a URL, choose a size, generate a QR code preview, and download it as a PNG.
 
@@ -33,3 +35,9 @@ Clone the repository and install dependencies:
 ```bash
 npm install
 ```
+
+---
+
+## 📄 License
+
+MIT License © 2026 renanrcp16
